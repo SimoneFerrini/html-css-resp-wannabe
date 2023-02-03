@@ -129,6 +129,44 @@ img {
  ************************************************/
 
 /*container full screen*/
+
 .container {
     width: 100%;
+}
+
+
+
+
+/*mobile screen*/
+@media screen and (max-width:576px) {
+
+
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+
+/*lessons section*/
+
+.lessons .col {
+    width: 100%;
+}
+
+/*steps section*/
+.steps .col {
+    width: 100%;
+}
+
+/*why us section*/
+.why-us .col-left {
+    width: 80%;
+}
+
+.why-us .col-right {
+    width: 100;
+}
+    
 }
