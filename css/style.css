@@ -132,41 +132,64 @@ img {
 
 .container {
     width: 100%;
+    margin: 0 0;
+    padding-bottom: 2em;
+    
 }
 
+.steps {
+    margin: 0;
+    padding: 3rem 0;
+    
+}
+
+.why-us {
+    margin-bottom: 0;
+}
+
+.why-us .container{
+   padding-top: 2em;
+}
 
 
 
 /*mobile screen*/
 @media screen and (max-width:576px) {
+  
 
 
-.row {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap:50px;
-}
+    .row {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap:50px;
+    }
 
-/*lessons section*/
+    /*lessons section*/
 
-.lessons .col {
-    width: 100%;
-}
+    .lessons .col {
+        width: 100%;
+    }
 
-/*steps section*/
-.steps .col {
-    width: 100%;
-}
+    /*steps section*/
+    .steps .col {
+        width: 100%;
+    }
 
-/*why us section*/
-.why-us .col-left {
-    width: 80%;
-}
+    /*why us section*/
+    .why-us .col-left {
+        width: 50%;
+    }
 
-.why-us .col-right {
-    width: 100;
-}
-    
+    .why-us .col-right {
+        width: 100;
+    }
+
+
+    .why-us .container{
+        background-color: black;
+        
+    }
 }
